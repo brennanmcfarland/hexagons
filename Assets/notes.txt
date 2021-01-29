@@ -1,0 +1,23 @@
+stone texture looks cool, either keep it or do something similar, here's how you made it:
+	1. render plasma
+	2. hurl noise at it, only once at about 30%?
+	3. desaturate the image
+	4. gaussian blur radius of 1
+	5. render lava on top of that and set color to alpha so only the lines show
+	6. repeat 4 a couple times, a little red looks really good, offsets the cool grey
+once most of the concept part gets done, other terrain types to think about adding:
+	lava
+	forest floor?
+	water
+	cobblestone
+	gravel
+	path (dirt or brick)
+	
+multiplayer online  game rooms?
+	delayed play over long periods of time?
+make the random map generator better so similar terrain types are grouped together	
+	http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/
+	is a good reference, but just a reference, a lot of the stuff you can do differently
+	to fit your game better
+get the map loader to work for faster map work? will need some way to load maps eventually,
+	I think Unity may actually take care of that though	
